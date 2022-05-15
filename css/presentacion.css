@@ -1,0 +1,78 @@
+.presentacion {
+    grid-area: presentacion;
+    position:static;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 3fr;
+    grid-template-areas: 
+    "titulo titulo foto"
+    "descripcion descripcion foto"
+    "redes redes foto";
+    width: 85vw;
+    margin: 0% 5%;
+    height: auto;
+    background: #464646;
+    justify-content:space-between;
+}
+
+.presentacion_container {   
+    font-family: "Raleway", sans-serif;
+    color: #27b7ca;
+    background: #464646;
+    width: 50vw;
+
+}
+
+.presentacion_titulo {
+    grid-area: titulo;
+    font-size: 3vw;
+    margin: 30px 30px 0px 30px;
+    text-shadow: #000000 5px 5px 5px;
+    background: #464646;
+}
+
+.presentacion_texto {
+    grid-area: descripcion;
+    font-size: 1.2vw;
+    text-shadow: #000000 5px 5px 5px;
+    padding: 34px;
+    background: #464646;
+}
+
+.presentacion_img {
+    width: 30vw;
+    grid-area: foto;
+    background: #464646;
+}
+.presentacion_img__fotoPerfil{
+    width: 25vw;
+    margin: 7% 5%;
+    background: #464646;
+}
+
+.social {
+    grid-area: redes;
+    display: inline-flex;
+    padding: 25px;
+    justify-content: space-between;
+    background: #464646;
+}
+
+.social_links {
+    width: 10vw;
+    font-size: 1.3vw;
+    margin: 0px 10px;
+    color: aqua;
+    background: #464646;
+    text-decoration: none;
+    list-style: none;
+    text-shadow: #000000 5px 5px 5px;
+}
+a{
+    background: #464646;
+    color: #27b7ca;
+    
+}
+i{
+    background: #464646;
+}

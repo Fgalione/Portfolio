@@ -1,0 +1,65 @@
+.academico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #838282;
+}
+
+.formacion_titulo {
+    display: flex;
+    text-align: center;
+    width: 95vw;
+    justify-content: space-around;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #464646;
+    background: #838282;
+    margin-bottom: 5vh;
+}
+
+.cursos_box {
+    background: #838282;
+    
+}
+.cursos {
+    display: inline-flex;
+    flex-direction: row;
+    background: #838282;
+}
+
+.cursos_lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 95px;
+    background: #838282;
+    list-style: none;
+}
+.cursos_lista>li, .cursos_lista>h4{
+    background: #838282;
+    padding: 15px;
+}
+.curso_img {
+    background: #838282;
+}
+
+img {
+    background: #838282;
+}
+
+.curso_subtitulo {
+    background: #838282;
+}
+
+.curso_subtitulo>p {
+    background: #838282;
+}
+h4{
+    font-size: 1.3rem;
+    background: #838282;
+}
+p{
+    font-size: 1.2rem;
+    background: #838282;
+    margin: 0px;
+}

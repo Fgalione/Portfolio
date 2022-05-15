@@ -1,0 +1,43 @@
+#sobre {
+    grid-area: sobre;
+
+}
+
+.sobre {
+    display: flex;
+    flex-direction: row;
+    background: #838282;
+    max-width: 85vw;
+    margin-left: 5vw;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+
+.sobre_container{
+    display: flex;
+    flex-direction: column;
+    position: static;
+    background: #838282;
+    width: 95vw;
+    padding: 3vw 3vw;   
+}
+
+.sobre_container__titulo{
+    background: #838282;
+    color: #464646;
+    font-size: 2.5vw;
+    font-weight: 700;
+    margin-bottom: 3vh;
+}
+
+.sobre_container__descripcion{
+    background: #838282;
+    color: #464646;
+    font-weight: 700;
+    margin-bottom: 3vh;
+}
+
+.sobre_container__imagen-firma {
+    width: 10vw;
+    background: #838282;
+
+}

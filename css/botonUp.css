@@ -1,0 +1,14 @@
+.btn_flotante {
+    position: fixed;
+    display: flex;
+    color: #27b7ca;
+    text-shadow: #000000 3px 3px 5px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    bottom: 40px;
+    right: 40px;
+    background: none;
+    text-decoration: none;
+    width: 80px;
+    height: 80px;
+}

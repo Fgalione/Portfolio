@@ -1,0 +1,36 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    background-color: azure;
+    
+}
+html {
+    width: 100%;
+    height: auto;
+    background: #838282;
+}
+
+body {
+    width: 100vw;
+    height: auto;
+    margin-left:0px;
+    margin-bottom: 0px;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 8fr;
+    grid-template-areas: 
+    "encabezado encabezado "
+    "presentacion presentacion"
+    "sobre sobre"
+    "sYh sYh"
+    "academico academico"
+    "proyectos proyectos"
+    "form_contacto form_contacto"
+    "footer footer";
+    grid-gap: 10px;
+    background: #838282;
+    display: flex;
+    flex-direction: column;
+}
