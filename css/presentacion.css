@@ -1,3 +1,6 @@
+/* se reemplazo un un style general en style.css
+
+
 .presentacion {
     grid-area: presentacion;
     position:static;
@@ -13,30 +16,39 @@
     height: auto;
     background: #464646;
     justify-content:space-between;
+} */
+
+.presentacion{
+    grid-area: presentacion;
+    flex-direction: row;
+    box-shadow: #1f1f1f 5px 8px 12px;
 }
 
+        
 .presentacion_container {   
     font-family: "Raleway", sans-serif;
     color: #27b7ca;
     background: #464646;
-    width: 50vw;
+    width: 50rem;
 
 }
 
 .presentacion_titulo {
     grid-area: titulo;
-    font-size: 3vw;
-    margin: 30px 30px 0px 30px;
+    font-size: 2.2rem;
+    margin: 2rem 2rem 0px 2rem;
     text-shadow: #000000 5px 5px 5px;
     background: #464646;
+    text-align: left;
 }
 
 .presentacion_texto {
     grid-area: descripcion;
-    font-size: 1.2vw;
+    font-size: 1rem;
     text-shadow: #000000 5px 5px 5px;
     padding: 34px;
     background: #464646;
+    text-align: left;
 }
 
 .presentacion_img {
@@ -53,15 +65,15 @@
 .social {
     grid-area: redes;
     display: inline-flex;
-    padding: 25px;
+    padding: 20px;
     justify-content: space-between;
     background: #464646;
 }
 
 .social_links {
-    width: 10vw;
-    font-size: 1.3vw;
-    margin: 0px 10px;
+    width: 8rem;
+    font-size: 1.2rem;
+    margin: 0px 5px;
     color: aqua;
     background: #464646;
     text-decoration: none;
@@ -75,4 +87,33 @@ a{
 }
 i{
     background: #464646;
+}
+
+@media screen and (max-width: 720px){
+    .presentacion_titulo{
+        font-size: 1.7rem;
+        text-align:left;
+    }
+
+    .presentacion_container{
+        width: 90%;
+    }
+
+    .presentacion{
+        flex-direction: column;
+    }
+    .social{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+    }
+    .social_links{
+        padding: 25px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .social_links{
+        padding: 5px;
+    }
 }

@@ -1,4 +1,4 @@
-.proyectos {
+/* .proyectos {
     grid-area: proyectos;
     position:static;
     width: 85vw;
@@ -6,8 +6,10 @@
     height: auto;
     background: #838282;
     justify-content:space-between;
+} */
+.proyectos {
+    background: #838282;
 }
-
 .proyectos_titulo {
     grid-area: titulo;
     font-size: 3vw;

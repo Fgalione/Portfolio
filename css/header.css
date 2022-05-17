@@ -1,3 +1,4 @@
+/* se reemplazo un un style general en style.css
 
 .header {
     grid-area: encabezado;
@@ -11,9 +12,13 @@
     border-radius: 10px 10px 0px 0px;
     box-shadow: #000000 3px 5px 10px;
     max-width: 95vw;
+} */
+.header {
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: #1f1f1f 5px 8px 12px;
 }
 
-.container_header{
+.container_header {
     display: flex;
     width: 85%;
     justify-content: space-between;
@@ -22,7 +27,7 @@
 }
 
 .encabezado_logo {
-display: flex;
+    display: flex;
     width: 10vw;
     background: #494949;
     border-top-color: #62f3f352 5px 5px 8px;
@@ -34,11 +39,11 @@ display: flex;
     justify-content: flex-end;
 }
 
-.container_nav>nav{
+.container_nav>nav {
     background: #494949;
 }
 
-.encabezado_nav_link{
+.encabezado_nav_link {
     background: #494949;
     color: #f5f5f5;
     justify-content: space-between;
@@ -50,3 +55,43 @@ display: flex;
     text-decoration: none;
 }
 
+@media screen and (max-width:720px) {
+    .container_header {
+        height: 200px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .encabezado_logo {
+        display: none;
+
+    }
+
+    nav.ecabezado_nav {
+        height: auto;
+        width: 390px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    a.encabezado_nav_link{
+        margin:5px;
+    }
+
+
+}
+
+
+@media screen and (max-width:375px) {
+    nav.ecabezado_nav {
+        height: auto;
+        width: 310px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,4 +1,4 @@
-.form_contacto {
+/* .form_contacto {
     grid-area: form_contacto;
     position:static;
     width: 85vw;
@@ -9,6 +9,12 @@
     margin-top: 55px;
     display: flex;
     flex-direction: row;
+} */
+
+.form_contacto {
+    grid-area: form_contacto;
+    flex-direction: row;
+    background: #838282;
 }
 
 .form_contacto__img{
@@ -70,7 +76,7 @@
     text-align: center;
     justify-content: center;
     margin-left: 15px;
-    width: 15vw;
+    width: 330px;
     padding: 10px;
     font-size: 1.5rem;
     font-weight: 900;

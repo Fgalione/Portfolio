@@ -1,3 +1,5 @@
+/* se reemplazo un un style general en style.css
+
 #sobre {
     grid-area: sobre;
 
@@ -10,7 +12,7 @@
     max-width: 85vw;
     margin-left: 5vw;
     filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
-}
+} */
 
 .sobre_container{
     display: flex;
